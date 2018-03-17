@@ -1,7 +1,10 @@
 require 'simplecov'
 SimpleCov.start do
   add_group 'ITunes', 'lib/itunes'
+<<<<<<< HEAD
   add_group 'Faraday Middleware', 'lib/faraday'
+=======
+>>>>>>> daa5a0d... test limit
   add_group 'Specs', 'spec'
 end
 
@@ -15,6 +18,12 @@ RSpec.configure do |c|
 end
 
 VCR.config do |c|
+<<<<<<< HEAD
   c.cassette_library_dir = 'spec/fixtures'
   c.stub_with              :webmock
 end
+=======
+  c.cassette_library_dir     = 'spec/fixtures'
+  c.stub_with                :webmock
+end
+>>>>>>> daa5a0d... test limit
