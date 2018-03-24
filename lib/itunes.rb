@@ -30,7 +30,6 @@ module ITunes
     new.respond_to?(method, include_private) || super(method, include_private)
   end
 end
-=======
 require 'httparty'
 
 class ITunes

@@ -16,7 +16,6 @@ namespace :doc do
       '--output-dir', 'doc/yard',
       '--markup', 'markdown',
     ]
-=======
 require 'rubygems'
 require File.join(File.dirname(__FILE__), 'lib', 'itunes', 'version')
 
